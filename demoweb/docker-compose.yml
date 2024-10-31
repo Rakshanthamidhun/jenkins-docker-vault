@@ -1,9 +1,7 @@
-version: "2"
 services:
   web:
-    build:
-        context: .
-    image: binblee/springboot-helm-chart
+    image: rakshantha06/vaultsampledemo
+    container_name: my_sample_container
     ports:
-      - 8080
+      - "8081:8080"
     restart: always
