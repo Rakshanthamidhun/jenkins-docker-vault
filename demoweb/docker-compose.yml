@@ -1,6 +1,6 @@
 services:
   web:
-    image: ${DOCKERHUB_REPO}
+    image: rakshantha06/vaultsampledemo
     container_name: my_sample_container
     ports:
       - "8081:8080"
