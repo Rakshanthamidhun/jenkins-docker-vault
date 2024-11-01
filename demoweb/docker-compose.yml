@@ -1,6 +1,6 @@
 services:
   web:
-    image: ${params.DOCKERHUB_REPO}
+    image: ${DOCKERHUB_REPO}
     container_name: my_sample_container
     ports:
       - "8081:8080"
